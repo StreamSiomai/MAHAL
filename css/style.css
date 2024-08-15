@@ -17,10 +17,10 @@ body{
     font-weight: 900;
 }
 .greetings > span{
-    animation: glow 3.5s ease-in-out infinite;
+    animation: glow 3s ease-in-out infinite;
 }
 @keyframes glow{
-    40%, 60%{
+    60%, 40%{
         color: #fff;
         text-shadow: 0 0 12px #FF007F, 0 0 50px #FF007F, 0 0 100px #FF007F;
     }
@@ -41,6 +41,16 @@ body{
 .greetings > span:nth-child(5){
     animation-delay: .8s;
 }
+.greetings > span:nth-child(6){
+    animation-delay: .8s;
+}
+.greetings > span:nth-child(7){
+    animation-delay: .95s;
+}
+.greetings > span:nth-child(8){
+    animation-delay: .9555s;
+}
+
 
 .description{
     font-size: 1.5rem;
